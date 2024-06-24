@@ -10,5 +10,41 @@ body {
   font-family: "Ubuntu", sans-serif;
   font-weight: 400;
   font-style: normal;
-  background-color: black;
+  background-color: #dcf2f1;
+}
+
+/* Navbar */
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  background-color: #0f1035;
+}
+
+.navbar-nav a {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: large;
+  color: #dcf2f1;
+}
+
+.konten {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 4rem;
+}
+
+.konten a {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: large;
+  padding: 0.8rem;
+  color: #0f1035;
+  background-color: #dcf2f1;
+  border: 2px solid #0f1035;
+  border-radius: 2rem;
 }
